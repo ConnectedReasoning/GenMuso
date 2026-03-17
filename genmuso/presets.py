@@ -7,7 +7,7 @@ intent lives — the harmonic plan, voice assignments, density, tempo.
 Think of these as "scores" that the generator interprets.
 """
 
-from composition import Composition, Section, VoiceConfig
+from genmuso.core.composition import Composition, Section, VoiceConfig
 
 
 # ── Voice templates ──────────────────────────────────────────────────

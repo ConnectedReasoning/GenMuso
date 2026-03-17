@@ -11,11 +11,11 @@ import datetime
 import numpy as np
 import mido
 
-from composition import Composition, Section, VoiceConfig
-from scales import build_scale, root_note_in_range, NOTE_NAMES
-from rhythm import build_grid, apply_swing, section_duration_ticks
-from voices import Note, BEHAVIORS
-from humanize import humanize, get_profile
+from genmuso.core.composition import Composition, Section, VoiceConfig
+from genmuso.music.scales import build_scale, root_note_in_range, NOTE_NAMES
+from genmuso.music.rhythm import build_grid, apply_swing, section_duration_ticks
+from genmuso.music.voices import Note, BEHAVIORS
+from genmuso.music.humanize import humanize, get_profile
 
 
 def generate(comp: Composition, output_path: str = None,
@@ -51,7 +51,7 @@ def generate(comp: Composition, output_path: str = None,
         tempo_map.append((cumulative_tick, section.tempo))
 
         # Compute intensity for this section
-        from dynamics import compute_section_intensity, intensity_to_modifiers
+        from genmuso.music.dynamics import compute_section_intensity, intensity_to_modifiers
         intensity = compute_section_intensity(
             section_idx, len(comp.sections), comp.arc)
         mods = intensity_to_modifiers(intensity)

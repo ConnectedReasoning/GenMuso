@@ -14,7 +14,7 @@ These are applied per-voice after generation, before MIDI export.
 """
 
 import numpy as np
-from voices import Note
+from genmuso.music.voices import Note
 
 
 def humanize(notes: list[Note], ticks_per_16th: int = 120,

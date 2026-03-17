@@ -9,7 +9,7 @@ Drop a .json file in the compositions/ folder and run it:
 
 import json
 import os
-from composition import Composition, Section, VoiceConfig
+from genmuso.core.composition import Composition, Section, VoiceConfig
 
 
 def load_json(path: str) -> Composition:

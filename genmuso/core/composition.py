@@ -8,7 +8,7 @@ just a new data structure, not new code.
 """
 
 from dataclasses import dataclass, field
-from scales import NOTE_NAMES
+from genmuso.music.scales import NOTE_NAMES
 
 
 @dataclass
@@ -72,7 +72,7 @@ class Composition:
         return sum(s.bars for s in self.sections)
 
     def summary(self) -> str:
-        from dynamics import compute_section_intensity
+        from genmuso.music.dynamics import compute_section_intensity
         lines = [f"Composition: {self.name}"]
         lines.append(f"  Sections: {len(self.sections)}  |  Arc: {self.arc}  |  Breathing: {self.breathing}")
         lines.append(f"  Total bars: {self.total_bars}")

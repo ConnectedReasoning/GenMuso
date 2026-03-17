@@ -13,9 +13,9 @@ import argparse
 import sys
 import os
 
-from presets import PRESETS
-from loader import load_json
-from generator import generate
+from genmuso.presets import PRESETS
+from genmuso.core.loader import load_json
+from genmuso.core.generator import generate
 
 
 def main():

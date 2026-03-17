@@ -1,0 +1,46 @@
+{
+  "name": "First_Sketch",
+  "arc": "flat",
+  "sections": [
+    {
+      "key": "E",
+      "mode": "pentatonic_minor",
+      "bars": 32,
+      "tempo": 98,
+      "swing": 0.15,
+      "voices": [
+        {
+          "name": "synth",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 60,
+          "high": 80,
+          "density": 0.5,
+          "velocity_range": [55, 80],
+          "note_lengths": [1, 2, 3, 4],
+          "note_length_weights": [0.15, 0.40, 0.25, 0.20],
+          "params": {
+            "motif_length": 5,
+            "plan": "gradual_evolution",
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "bass",
+          "channel": 1,
+          "program": 33,
+          "low": 36,
+          "high": 53,
+          "density": 0.6,
+          "velocity_range": [55, 78],
+          "params": {
+            "style": "walking",
+            "humanize": "natural"
+          }
+        }
+      ]
+    }
+  ]
+}

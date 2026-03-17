@@ -29,13 +29,13 @@ and how they move.
 """
 
 import numpy as np
-from voices import Note
-from rhythm import GridPosition, phrase_weight
-from scales import (
+from genmuso.music.voices import Note
+from genmuso.music.rhythm import GridPosition, phrase_weight
+from genmuso.music.scales import (
     build_scale, root_note_in_range, chord_tones as _chord_tones,
     nearest_in_scale,
 )
-from motifs import generate_motif, apply_transform, PLANS
+from genmuso.music.motifs import generate_motif, apply_transform, PLANS
 
 
 def bass_voice(

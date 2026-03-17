@@ -14,8 +14,8 @@ moves through pitch and time:
 
 import numpy as np
 from dataclasses import dataclass
-from rhythm import GridPosition, phrase_weight
-from scales import chord_tones as _chord_tones, nearest_in_scale
+from genmuso.music.rhythm import GridPosition, phrase_weight
+from genmuso.music.scales import chord_tones as _chord_tones, nearest_in_scale
 
 
 @dataclass
@@ -372,7 +372,7 @@ def develop(
         motif_durations: duration choices for motif notes
         motif_duration_weights: probability weights for durations
     """
-    from motifs import (generate_motif, apply_transform,
+    from genmuso.music.motifs import (generate_motif, apply_transform,
                         PLANS, DevelopmentPlan)
 
     if not scale or not grid:
@@ -453,7 +453,7 @@ def develop(
     return notes
 
 
-from bass import bass_voice
+from genmuso.music.bass import bass_voice
 
 
 # ── Behavior dispatch ────────────────────────────────────────────────
