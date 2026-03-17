@@ -1,0 +1,508 @@
+{
+  "name": "Meridian",
+  "ticks_per_beat": 480,
+  "sections": [
+    {
+      "key": "Eb",
+      "mode": "major",
+      "bars": 32,
+      "tempo": 72,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "piano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 60,
+          "high": 84,
+          "density": 0.6,
+          "velocity_range": [
+            50,
+            75
+          ],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "gradual_evolution",
+            "step_range": [
+              -2,
+              3
+            ],
+            "motif_durations": [
+              3,
+              4,
+              6,
+              8
+            ],
+            "motif_duration_weights": [
+              0.15,
+              0.3,
+              0.35,
+              0.2
+            ],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "guitar_arp",
+          "behavior": "arpeggio",
+          "channel": 1,
+          "program": 25,
+          "low": 48,
+          "high": 72,
+          "density": 0.45,
+          "velocity_range": [
+            40,
+            60
+          ],
+          "phrase_length": 4,
+          "params": {
+            "pattern": "up_down",
+            "note_length": 2,
+            "degree": 1,
+            "humanize": "natural"
+          }
+        },
+        {
+          "name": "pad",
+          "behavior": "random_walk",
+          "channel": 2,
+          "program": 89,
+          "low": 48,
+          "high": 67,
+          "density": 0.06,
+          "velocity_range": [
+            35,
+            52
+          ],
+          "note_lengths": [
+            12,
+            16
+          ],
+          "note_length_weights": [
+            0.4,
+            0.6
+          ],
+          "phrase_length": 8,
+          "params": {
+            "leap_probability": 0.02,
+            "humanize": "legato"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "bass",
+          "channel": 3,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.45,
+          "velocity_range": [
+            50,
+            70
+          ],
+          "phrase_length": 4,
+          "params": {
+            "style": "root_lock",
+            "note_length": 4,
+            "humanize": "natural"
+          }
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "mode": "minor",
+      "bars": 24,
+      "tempo": 72,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "piano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 60,
+          "high": 84,
+          "density": 0.55,
+          "velocity_range": [
+            48,
+            72
+          ],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "sequence_descent",
+            "step_range": [
+              -2,
+              3
+            ],
+            "motif_durations": [
+              3,
+              4,
+              6,
+              8
+            ],
+            "motif_duration_weights": [
+              0.15,
+              0.3,
+              0.35,
+              0.2
+            ],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "flute",
+          "behavior": "develop",
+          "channel": 4,
+          "program": 73,
+          "low": 72,
+          "high": 91,
+          "density": 0.4,
+          "velocity_range": [
+            40,
+            60
+          ],
+          "phrase_length": 8,
+          "params": {
+            "motif_length": 4,
+            "plan": "gradual_evolution",
+            "step_range": [
+              -2,
+              3
+            ],
+            "motif_durations": [
+              4,
+              6,
+              8
+            ],
+            "motif_duration_weights": [
+              0.25,
+              0.4,
+              0.35
+            ],
+            "humanize": "legato"
+          }
+        },
+        {
+          "name": "guitar_arp",
+          "behavior": "arpeggio",
+          "channel": 1,
+          "program": 25,
+          "low": 48,
+          "high": 72,
+          "density": 0.45,
+          "velocity_range": [
+            40,
+            60
+          ],
+          "phrase_length": 4,
+          "params": {
+            "pattern": "up",
+            "note_length": 2,
+            "degree": 1,
+            "humanize": "natural"
+          }
+        },
+        {
+          "name": "pad",
+          "behavior": "random_walk",
+          "channel": 2,
+          "program": 89,
+          "low": 48,
+          "high": 67,
+          "density": 0.06,
+          "velocity_range": [
+            35,
+            52
+          ],
+          "note_lengths": [
+            12,
+            16
+          ],
+          "note_length_weights": [
+            0.4,
+            0.6
+          ],
+          "phrase_length": 8,
+          "params": {
+            "leap_probability": 0.02,
+            "humanize": "legato"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "bass",
+          "channel": 3,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.4,
+          "velocity_range": [
+            48,
+            68
+          ],
+          "phrase_length": 4,
+          "params": {
+            "style": "root_lock",
+            "note_length": 4,
+            "humanize": "natural"
+          }
+        }
+      ]
+    },
+    {
+      "key": "Ab",
+      "mode": "lydian",
+      "bars": 32,
+      "tempo": 72,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "piano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 60,
+          "high": 84,
+          "density": 0.6,
+          "velocity_range": [
+            52,
+            78
+          ],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 6,
+            "plan": "gradual_evolution",
+            "step_range": [
+              -2,
+              4
+            ],
+            "motif_durations": [
+              3,
+              4,
+              6
+            ],
+            "motif_duration_weights": [
+              0.25,
+              0.4,
+              0.35
+            ],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "flute",
+          "behavior": "develop",
+          "channel": 4,
+          "program": 73,
+          "low": 72,
+          "high": 91,
+          "density": 0.35,
+          "velocity_range": [
+            38,
+            58
+          ],
+          "phrase_length": 8,
+          "params": {
+            "motif_length": 4,
+            "plan": "aba",
+            "step_range": [
+              -2,
+              3
+            ],
+            "motif_durations": [
+              4,
+              6,
+              8,
+              12
+            ],
+            "motif_duration_weights": [
+              0.15,
+              0.3,
+              0.35,
+              0.2
+            ],
+            "humanize": "legato"
+          }
+        },
+        {
+          "name": "guitar_arp",
+          "behavior": "arpeggio",
+          "channel": 1,
+          "program": 25,
+          "low": 48,
+          "high": 72,
+          "density": 0.5,
+          "velocity_range": [
+            42,
+            62
+          ],
+          "phrase_length": 4,
+          "params": {
+            "pattern": "up_down",
+            "note_length": 2,
+            "degree": 1,
+            "humanize": "natural"
+          }
+        },
+        {
+          "name": "pad",
+          "behavior": "random_walk",
+          "channel": 2,
+          "program": 89,
+          "low": 48,
+          "high": 67,
+          "density": 0.07,
+          "velocity_range": [
+            35,
+            55
+          ],
+          "note_lengths": [
+            12,
+            16
+          ],
+          "note_length_weights": [
+            0.4,
+            0.6
+          ],
+          "phrase_length": 8,
+          "params": {
+            "leap_probability": 0.02,
+            "humanize": "legato"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "bass",
+          "channel": 3,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.4,
+          "velocity_range": [
+            50,
+            70
+          ],
+          "phrase_length": 4,
+          "params": {
+            "style": "root_lock",
+            "note_length": 4,
+            "humanize": "natural"
+          }
+        }
+      ]
+    },
+    {
+      "key": "Eb",
+      "mode": "major",
+      "bars": 24,
+      "tempo": 70,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "piano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 60,
+          "high": 84,
+          "density": 0.5,
+          "velocity_range": [
+            45,
+            68
+          ],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "gradual_evolution",
+            "step_range": [
+              -2,
+              3
+            ],
+            "motif_durations": [
+              4,
+              6,
+              8
+            ],
+            "motif_duration_weights": [
+              0.25,
+              0.4,
+              0.35
+            ],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "guitar_arp",
+          "behavior": "arpeggio",
+          "channel": 1,
+          "program": 25,
+          "low": 48,
+          "high": 72,
+          "density": 0.4,
+          "velocity_range": [
+            38,
+            55
+          ],
+          "phrase_length": 4,
+          "params": {
+            "pattern": "up",
+            "note_length": 3,
+            "degree": 1,
+            "humanize": "natural"
+          }
+        },
+        {
+          "name": "pad",
+          "behavior": "random_walk",
+          "channel": 2,
+          "program": 89,
+          "low": 48,
+          "high": 67,
+          "density": 0.05,
+          "velocity_range": [
+            30,
+            48
+          ],
+          "note_lengths": [
+            12,
+            16
+          ],
+          "note_length_weights": [
+            0.4,
+            0.6
+          ],
+          "phrase_length": 8,
+          "params": {
+            "leap_probability": 0.02,
+            "humanize": "legato"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "bass",
+          "channel": 3,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.35,
+          "velocity_range": [
+            45,
+            65
+          ],
+          "phrase_length": 4,
+          "params": {
+            "style": "root_lock",
+            "note_length": 4,
+            "humanize": "natural"
+          }
+        }
+      ]
+    }
+  ],
+  "arc": "peak_middle",
+  "breathing": "swell"
+}

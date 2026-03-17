@@ -1,0 +1,198 @@
+{
+  "name": "Focus",
+  "ticks_per_beat": 480,
+  "sections": [
+    {
+      "key": "A",
+      "mode": "pentatonic_minor",
+      "bars": 32,
+      "tempo": 68,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "random_walk",
+          "channel": 0,
+          "program": 46,
+          "low": 72,
+          "high": 96,
+          "density": 0.15,
+          "velocity_range": [40, 65],
+          "note_lengths": [4, 6, 8, 12],
+          "note_length_weights": [0.1, 0.3, 0.35, 0.25],
+          "phrase_length": 4,
+          "params": { "leap_probability": 0.06 }
+        },
+        {
+          "name": "ostinato",
+          "behavior": "ostinato",
+          "channel": 1,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.35,
+          "velocity_range": [50, 70],
+          "note_lengths": [2],
+          "note_length_weights": [1.0],
+          "phrase_length": 4,
+          "params": { "note_length": 3, "pattern_bars": 2, "variation": 0.06 }
+        },
+        {
+          "name": "drone",
+          "behavior": "drone",
+          "channel": 2,
+          "program": 52,
+          "low": 36,
+          "high": 60,
+          "density": 1.0,
+          "velocity_range": [40, 40],
+          "params": { "include_fifth": true }
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "mode": "pentatonic_major",
+      "bars": 32,
+      "tempo": 68,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "random_walk",
+          "channel": 0,
+          "program": 46,
+          "low": 72,
+          "high": 96,
+          "density": 0.15,
+          "velocity_range": [40, 65],
+          "note_lengths": [4, 6, 8, 12],
+          "note_length_weights": [0.1, 0.3, 0.35, 0.25],
+          "phrase_length": 4,
+          "params": { "leap_probability": 0.06 }
+        },
+        {
+          "name": "ostinato",
+          "behavior": "ostinato",
+          "channel": 1,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.35,
+          "velocity_range": [50, 70],
+          "note_lengths": [2],
+          "note_length_weights": [1.0],
+          "phrase_length": 4,
+          "params": { "note_length": 3, "pattern_bars": 2, "variation": 0.06 }
+        },
+        {
+          "name": "drone",
+          "behavior": "drone",
+          "channel": 2,
+          "program": 52,
+          "low": 36,
+          "high": 60,
+          "density": 1.0,
+          "velocity_range": [40, 40],
+          "params": { "include_fifth": true }
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "mode": "pentatonic_major",
+      "bars": 32,
+      "tempo": 68,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "random_walk",
+          "channel": 0,
+          "program": 46,
+          "low": 72,
+          "high": 96,
+          "density": 0.15,
+          "velocity_range": [40, 65],
+          "note_lengths": [4, 6, 8, 12],
+          "note_length_weights": [0.1, 0.3, 0.35, 0.25],
+          "phrase_length": 4,
+          "params": { "leap_probability": 0.06 }
+        },
+        {
+          "name": "ostinato",
+          "behavior": "ostinato",
+          "channel": 1,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.35,
+          "velocity_range": [50, 70],
+          "note_lengths": [2],
+          "note_length_weights": [1.0],
+          "phrase_length": 4,
+          "params": { "note_length": 3, "pattern_bars": 2, "variation": 0.06 }
+        },
+        {
+          "name": "drone",
+          "behavior": "drone",
+          "channel": 2,
+          "program": 52,
+          "low": 36,
+          "high": 60,
+          "density": 1.0,
+          "velocity_range": [40, 40],
+          "params": { "include_fifth": true }
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "mode": "pentatonic_minor",
+      "bars": 32,
+      "tempo": 68,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "random_walk",
+          "channel": 0,
+          "program": 46,
+          "low": 72,
+          "high": 96,
+          "density": 0.15,
+          "velocity_range": [40, 65],
+          "note_lengths": [4, 6, 8, 12],
+          "note_length_weights": [0.1, 0.3, 0.35, 0.25],
+          "phrase_length": 4,
+          "params": { "leap_probability": 0.06 }
+        },
+        {
+          "name": "ostinato",
+          "behavior": "ostinato",
+          "channel": 1,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.35,
+          "velocity_range": [50, 70],
+          "note_lengths": [2],
+          "note_length_weights": [1.0],
+          "phrase_length": 4,
+          "params": { "note_length": 3, "pattern_bars": 2, "variation": 0.06 }
+        },
+        {
+          "name": "drone",
+          "behavior": "drone",
+          "channel": 2,
+          "program": 52,
+          "low": 36,
+          "high": 60,
+          "density": 1.0,
+          "velocity_range": [40, 40],
+          "params": { "include_fifth": true }
+        }
+      ]
+    }
+  ]
+}

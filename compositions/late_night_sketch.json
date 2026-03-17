@@ -1,0 +1,98 @@
+{
+  "name": "Late Night Sketch",
+  "sections": [
+    {
+      "key": "D",
+      "mode": "minor",
+      "bars": 32,
+      "tempo": 68,
+      "voices": [
+        {
+          "name": "melody",
+          "behavior": "random_walk",
+          "channel": 0,
+          "program": 73,
+          "low": 60,
+          "high": 84,
+          "density": 0.18,
+          "velocity_range": [45, 70],
+          "note_lengths": [4, 6, 8, 12],
+          "note_length_weights": [0.1, 0.3, 0.35, 0.25]
+        },
+        {
+          "name": "bass",
+          "behavior": "ostinato",
+          "channel": 1,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.4,
+          "velocity_range": [55, 75],
+          "params": { "pattern_bars": 2, "note_length": 3 }
+        },
+        {
+          "name": "pad",
+          "behavior": "drone",
+          "channel": 2,
+          "program": 52,
+          "low": 48,
+          "high": 60,
+          "velocity_range": [40, 40],
+          "params": { "include_fifth": true }
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "mode": "major",
+      "bars": 32,
+      "tempo": 72,
+      "voices": [
+        {
+          "name": "melody",
+          "behavior": "random_walk",
+          "channel": 0,
+          "program": 73,
+          "low": 60,
+          "high": 84,
+          "density": 0.22,
+          "velocity_range": [50, 75],
+          "note_lengths": [3, 4, 6, 8],
+          "note_length_weights": [0.15, 0.3, 0.35, 0.2]
+        },
+        {
+          "name": "bass",
+          "behavior": "ostinato",
+          "channel": 1,
+          "program": 33,
+          "low": 36,
+          "high": 55,
+          "density": 0.4,
+          "velocity_range": [55, 75],
+          "params": { "pattern_bars": 2, "note_length": 2 }
+        },
+        {
+          "name": "arp",
+          "behavior": "arpeggio",
+          "channel": 3,
+          "program": 46,
+          "low": 48,
+          "high": 72,
+          "density": 0.3,
+          "velocity_range": [40, 60],
+          "params": { "pattern": "up", "note_length": 2 }
+        },
+        {
+          "name": "pad",
+          "behavior": "drone",
+          "channel": 2,
+          "program": 52,
+          "low": 48,
+          "high": 60,
+          "velocity_range": [40, 40],
+          "params": { "include_fifth": true }
+        }
+      ]
+    }
+  ]
+}

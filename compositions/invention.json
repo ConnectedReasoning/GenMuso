@@ -1,0 +1,270 @@
+{
+  "name": "Invention in D Minor",
+  "ticks_per_beat": 480,
+  "sections": [
+    {
+      "key": "D",
+      "mode": "minor",
+      "bars": 32,
+      "tempo": 84,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 64,
+          "high": 84,
+          "density": 0.7,
+          "velocity_range": [60, 90],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "fugue_exposition",
+            "step_range": [-2, 3],
+            "motif_durations": [2, 3, 4],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "tenor",
+          "behavior": "develop",
+          "channel": 1,
+          "program": 0,
+          "low": 48,
+          "high": 67,
+          "density": 0.6,
+          "velocity_range": [55, 82],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 4,
+            "plan": "sequence_descent",
+            "step_range": [-2, 3],
+            "motif_durations": [3, 4, 6],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "develop",
+          "channel": 2,
+          "program": 0,
+          "low": 36,
+          "high": 55,
+          "density": 0.5,
+          "velocity_range": [55, 80],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 4,
+            "plan": "aba",
+            "step_range": [-1, 2],
+            "motif_durations": [4, 6, 8],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "natural"
+          }
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "mode": "major",
+      "bars": 24,
+      "tempo": 84,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 64,
+          "high": 84,
+          "density": 0.7,
+          "velocity_range": [62, 92],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "gradual_evolution",
+            "step_range": [-2, 3],
+            "motif_durations": [2, 3, 4],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "tenor",
+          "behavior": "develop",
+          "channel": 1,
+          "program": 0,
+          "low": 48,
+          "high": 67,
+          "density": 0.6,
+          "velocity_range": [55, 82],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 4,
+            "plan": "fugue_exposition",
+            "step_range": [-2, 3],
+            "motif_durations": [3, 4, 6],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "develop",
+          "channel": 2,
+          "program": 0,
+          "low": 36,
+          "high": 55,
+          "density": 0.5,
+          "velocity_range": [55, 80],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 4,
+            "plan": "sequence_descent",
+            "step_range": [-1, 2],
+            "motif_durations": [4, 6, 8],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "natural"
+          }
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "mode": "minor",
+      "bars": 24,
+      "tempo": 84,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 64,
+          "high": 84,
+          "density": 0.65,
+          "velocity_range": [58, 88],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 6,
+            "plan": "gradual_evolution",
+            "step_range": [-3, 4],
+            "motif_durations": [2, 3, 4],
+            "motif_duration_weights": [0.25, 0.4, 0.35],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "tenor",
+          "behavior": "develop",
+          "channel": 1,
+          "program": 0,
+          "low": 48,
+          "high": 67,
+          "density": 0.55,
+          "velocity_range": [52, 78],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "aba",
+            "step_range": [-2, 3],
+            "motif_durations": [3, 4, 6],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "develop",
+          "channel": 2,
+          "program": 0,
+          "low": 36,
+          "high": 55,
+          "density": 0.45,
+          "velocity_range": [55, 80],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 4,
+            "plan": "gradual_evolution",
+            "step_range": [-1, 2],
+            "motif_durations": [4, 6, 8],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "natural"
+          }
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "mode": "minor",
+      "bars": 32,
+      "tempo": 82,
+      "meter": "4/4",
+      "voices": [
+        {
+          "name": "soprano",
+          "behavior": "develop",
+          "channel": 0,
+          "program": 0,
+          "low": 64,
+          "high": 84,
+          "density": 0.65,
+          "velocity_range": [58, 88],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "fugue_exposition",
+            "step_range": [-2, 3],
+            "motif_durations": [2, 3, 4, 6],
+            "motif_duration_weights": [0.2, 0.3, 0.3, 0.2],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "tenor",
+          "behavior": "develop",
+          "channel": 1,
+          "program": 0,
+          "low": 48,
+          "high": 67,
+          "density": 0.55,
+          "velocity_range": [52, 78],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 5,
+            "plan": "gradual_evolution",
+            "step_range": [-2, 3],
+            "motif_durations": [3, 4, 6],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "expressive"
+          }
+        },
+        {
+          "name": "bass",
+          "behavior": "develop",
+          "channel": 2,
+          "program": 0,
+          "low": 36,
+          "high": 55,
+          "density": 0.45,
+          "velocity_range": [55, 78],
+          "phrase_length": 4,
+          "params": {
+            "motif_length": 4,
+            "plan": "fugue_exposition",
+            "step_range": [-1, 2],
+            "motif_durations": [4, 6, 8],
+            "motif_duration_weights": [0.3, 0.4, 0.3],
+            "humanize": "natural"
+          }
+        }
+      ]
+    }
+  ]
+}
